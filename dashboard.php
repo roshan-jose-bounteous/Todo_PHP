@@ -24,7 +24,6 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-        // Function to load tasks from the database
         function loadTasks() {
             $.ajax({
                 url: 'api/todo.php?action=read',
